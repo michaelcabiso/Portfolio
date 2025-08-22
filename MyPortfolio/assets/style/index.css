@@ -1,0 +1,462 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #000;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.nav-desktop a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #5E9CD7;
+  padding: 40px 20px;
+  justify-content: space-between;
+  
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  max-width: 1300px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.hero-image {
+  border-radius: 50%;
+  width: 480px;
+  height: 490px;
+  object-fit: cover;
+  margin-left: 3rem;
+ 
+}
+
+.hero-text {
+  flex: 1;
+  padding: 20px;
+  margin-left: 5rem;
+}
+
+.hero-text h1 {
+  font-size: 45px;
+
+}
+
+.hero-text h2 {
+  font-size: 20px;
+  color: #003366;
+}
+
+.hero-text p {
+  margin: 15px 0;
+  margin-right: 10rem;
+}
+
+.hero-text a {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+ font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.contact-btn {
+  background-color: #333;
+}
+
+.contact-info {
+  font-size: 20px;
+  color: #ffffff;
+  list-style: none;
+  margin-top: 20px;
+}
+
+/* About Section */
+.about {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: white;
+}
+
+.about-photo {
+  width: 150px;
+  border-radius: 20%;
+  margin: 20px 0;
+}
+
+.skills img {
+  width: 150px;
+  margin: 10px;
+
+
+}
+
+.skills {
+    gap: 90px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+/* Projects Section */
+.projects {
+  background-color: #5E9CD7;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.project-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 200px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card button {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Contact Section */
+.contact {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.contact span {
+  color: #0077cc;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+
+form button {
+  padding: 10px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #222;
+  color: white;
+  font-size: 14px;
+}
+
+/* Responsive */
+
+.hero-text .homepage-description {
+  margin-top: -5px;
+  color: #fff;
+}
+
+.FUTEWEB {
+  margin-top: -1rem;
+}
+
+span {
+    color: #000000;
+}
+.about1 {
+   color: #5E9CD7;
+   font-size: 30px;
+}
+.about2 {
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.about3 {
+    color: #ffffff;
+   font-size: 40px;
+}
+.project-cards .project1 {
+    margin-top: 2rem;
+    border-radius: 50px; ;
+}
+.Welcome {
+    margin-top: 2rem;
+}
+.project-cards  .project2 {
+    border-radius: 50px;
+}
+.projects .card {
+  
+   
+}
+.forms{
+    background-color: #5E9CD7;
+    max-width: 30rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form {
+  
+  padding: 30px 40px;
+  border-radius: 20px;
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #5E9CD7 ;
+  padding: 2rem;
+  border-radius: 35px;
+}
+
+label {
+  color: white;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input,
+textarea {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+
+
+.submit {
+    background-color: #ffffff;
+    color: #5E9CD7;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+footer{
+    background-color: #5E9CD7;
+
+}
+footer p {
+    color: #000000;
+    font-weight: bold;
+}
+
+
+/* Medium screens (tablet) */
+@media (max-width: 1024px) {
+  .hero-image {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .hero-text {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .hero-text p {
+    margin-right: 0;
+  }
+
+  .skills {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .project-cards {
+    gap: 50px;
+  }
+
+  .card {
+    max-width: 90%;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-image {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .hero-text {
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  .hero-text h1 {
+    font-size: 30px;
+  }
+
+  .hero-text h2 {
+    font-size: 18px;
+  }
+
+  .hero-text p {
+    margin: 1rem 0;
+  }
+
+  .skills {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .skills img {
+    width: 100px;
+  }
+
+  .project-cards {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .form {
+    padding: 20px;
+  }
+
+  .contact-form {
+    padding: 10px;
+  }
+
+  .submit {
+    align-self: center;
+  }
+
+  .menu-icon {
+    display: block;
+    font-size: 28px;
+    cursor: pointer;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+}
+
+/* Extra small screens (phones under 480px) */
+@media (max-width: 480px) {
+  .hero-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .hero-text h1 {
+    font-size: 26px;
+  }
+
+  .hero-text h2 {
+    font-size: 16px;
+  }
+
+  .skills img {
+    width: 80px;
+  }
+
+  .contact-form {
+    padding: 10px;
+  }
+
+  form {
+    padding: 1rem;
+  }
+}
+
+
+
+
